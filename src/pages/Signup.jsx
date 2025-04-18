@@ -31,13 +31,13 @@ if(loading){
         <SubHeading label={"Enter your infromation to create an account"} />
         <InputBox onChange={e => {
            setFirstName(e.target.value);
-        }} placeholder="Gaurav" label={"First Name"} /> 
+        }} placeholder="Harshit" label={"First Name"} /> 
         <InputBox onChange={e => {
            setLastName(e.target.value);
-        }} placeholder="Sharma" label={"Last Name"} />
+        }} placeholder="Jhalani" label={"Last Name"} />
         <InputBox onChange={e => {
            setUsername(e.target.value);
-        }} placeholder="Gaurav@gmail.com" label={"Email"} />
+        }} placeholder="harshabhai@gmail.com" label={"Email"} />
         <InputBox onChange={e => {
            setPassword(e.target.value);
         }} placeholder="must contain atlest 8 letters" label={"Password"} />
